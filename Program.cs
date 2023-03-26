@@ -6,12 +6,12 @@
         {
             Console.WriteLine("Hesap Makinesi\n");
             Console.Write("Birinci Sayıyı Giriniz: ");
-            int sayi1 = int.Parse(Console.ReadLine());
+            double sayi1 = double.Parse(Console.ReadLine());
             Console.Write("İşlem Seçiniz (+) (-) (/) (*) (%): ");
             string islem = Console.ReadLine();
             Console.Write("İkinci Sayıyı Giriniz: ");
-            int sayi2 = int.Parse(Console.ReadLine());
-            int sonuc = 0;
+            double sayi2 = double.Parse(Console.ReadLine());
+            double sonuc = 0;
             switch (islem)
             {
                 case "+":
